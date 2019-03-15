@@ -1,8 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 yes | pkg upgrade  && \
-#pkg install wget && \
-#wget https://its-pointless.github.io/setup-pointless-repo.sh && \
-#sh setup-pointless-repo.sh && \
 yes | pkg install \
   python \
   python-dev \
@@ -13,8 +10,8 @@ yes | pkg install \
   libsodium  \
   clang \
   cmake
-# install the latest Python package manager.
-# The version of pip that comes with Python maybe outdated.
+# Install the latest Python package manager.
+# The version of pip that comes with Python may be outdated.
 pip install --upgrade pip 
 pip list --outdated --format=freeze | \
   grep -v '^\-e' | \
