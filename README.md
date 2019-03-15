@@ -26,7 +26,7 @@ You can run this script as follows.
 ```bash
 > pkg install wget
 > wget https://raw.githubusercontent.com/nicenemo/termux-setup/master/termux-install-ansible.sh
->sh termux-install-ansible.sh
+> sh termux-install-ansible.sh
 ```
 
 ## Installing dev system
