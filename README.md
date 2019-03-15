@@ -31,4 +31,4 @@ You can run this script as follows.
 
 ## Installing dev system
 
-> To be determined. I am not certain yet whether I want to do this with Ansible or just a bunch of `pkg install ...` or `apt install ...` commands. By default `apt` is not available. After running the script for ansible, apt is available. So I should be able to use Ansible.
+> To be determined. I am not certain yet whether I want to do this with Ansible or just a bunch of `pkg install ...` or `apt install ...` commands. By default `apt` is not available. After running the script for ansible, `apt` is available. So I should be able to use Ansible.
