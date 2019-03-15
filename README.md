@@ -31,4 +31,4 @@ You can run this script as follows.
 
 ## Installing dev system
 
-> To be determined. I am not certain yet whether I want to do this with Ansible or just a bunch of `pkg install ...` calls. Since the default installer for Termux is not apt but a custom program called `pkg`. If However I Install the [pointless repo](https://github.com/its-pointless/gcc_termux), then I have access to `apt` and the default package management of Ansible may also work locally.
+> To be determined. I am not certain yet whether I want to do this with Ansible or just a bunch of `pkg install ...` calls. Since the default installer for Termux is not apt but a custom program called `pkg`. If However, if I Install the [pointless repo](https://github.com/its-pointless/gcc_termux), then I have access to `apt` and the default package management of Ansible may also work locally.
